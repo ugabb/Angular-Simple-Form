@@ -1,0 +1,13 @@
+<form [formGroup]="checkoutForm" (ngSubmit)="onSubmit()">
+  <div class="input-container">
+    <label for="email">Email</label>
+    <input id="email" type="email" formControlName="email">
+  </div>
+  <div class="input-container">
+    <label for="password">Password</label>
+    <input id="password" type="password" formControlName="password">
+  </div>
+
+  <button>Log in</button>
+  <p>Did you forget your password?</p>
+</form>

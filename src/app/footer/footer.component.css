@@ -1,0 +1,23 @@
+.footer-container{
+  display: flex;
+  justify-content: space-between;
+  align-items: flex-end;
+  gap: .5rem;
+  font-size: .6rem;
+  padding: 1rem 3rem ;
+
+}
+
+.con{
+  display: flex;
+  gap: .5rem;
+}
+
+a{
+  cursor: pointer;
+}
+
+a:hover{
+  color: #2655FB;
+  transition: .4s;
+}

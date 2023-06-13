@@ -1,0 +1,24 @@
+
+.sign-up-container{
+  margin: 3rem;
+  padding: 2rem;
+  border: 1px solid #CACACA;
+  border-radius: 5px;
+  display: flex;
+  flex-direction: column;
+  gap: 1.5rem;
+}
+
+button{
+  width: 100%;
+  padding: .6rem;
+  border: none;
+  border-radius: 5px;
+  background-color: #E8EDFF;
+  color:#2655FB;
+  font-weight: bold;
+}
+
+p{
+  font-size: 0.8rem;
+}

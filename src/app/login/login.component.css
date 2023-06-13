@@ -1,0 +1,14 @@
+.login-container{
+  width: 45vw;
+
+  padding: 3rem;
+}
+
+h1{
+  margin-bottom: .5rem;
+}
+
+p{
+  color: #4D4D4D;
+  font-size: .8rem;
+}

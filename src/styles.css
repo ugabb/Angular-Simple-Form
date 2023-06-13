@@ -1,0 +1,35 @@
+/* Global Styles */
+
+
+@import url('https://fonts.googleapis.com/css2?family=Inter:wght@100;400;700&display=swap');
+
+
+* {
+  font-family: 'Inter', sans-serif;
+  box-sizing: border-box;
+  -webkit-font-smoothing: antialiased;
+  -moz-osx-font-smoothing: grayscale;
+  margin: 0;
+  padding: 0;
+  box-sizing: border-box;
+}
+
+.container {
+  display: flex;
+}
+
+main{
+  display: flex;
+  flex-direction: column;
+  height: 100vh;
+}
+
+img{
+  width: 50vw;
+  height: 100vh;
+  object-fit: cover;
+}
+
+router-outlet + *  {
+  padding: 0 16px;
+}
